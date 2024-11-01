@@ -1,0 +1,129 @@
+#poststuff .inside table {
+    margin: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-spacing: 0;
+    background-color: #f9f9f9;
+}
+
+#poststuff .inside table tr {
+    vertical-align: top;
+}
+
+#poststuff .inside table th {
+    padding: 5px 8px 8px;
+    background-color: #f1f1f1;
+}
+
+#poststuff .inside table td.left,
+#poststuff .inside table th.left {
+    width: 38%;
+}
+
+#poststuff .inside table input,
+#poststuff .inside table select,
+#poststuff .inside table textarea {
+    width: 96%;
+    margin: 8px;
+}
+
+.meta-box-sortables select {
+    max-width: 100%;
+}
+
+.wp-admin select {
+    padding: 2px;
+    line-height: 28px;
+    height: 28px;
+}
+
+input,
+select,
+textarea {
+    font-size: 14px;
+    border-radius: 0;
+}
+
+button,
+input,
+select,
+textarea {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+#poststuff .inside table .submit {
+    border: 0;
+    float: none;
+    padding: 0 8px 8px;
+}
+
+#normal-sortables .postbox .submit {
+    background: 0 0;
+    border: 0;
+    float: right;
+    padding: 0 12px;
+    margin: 0;
+}
+
+.submit {
+    padding: 1.5em 0;
+    margin: 5px 0;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border: none;
+}
+
+#poststuff .inside table .submit input {
+    margin: 0;
+    width: auto;
+}
+
+.wp-core-ui .button-group.button-small .button,
+.wp-core-ui .button.button-small {
+    height: 24px;
+    line-height: 22px;
+    padding: 0 8px 1px;
+    font-size: 11px;
+}
+
+.wp-core-ui .button,
+.wp-core-ui .button-secondary {
+    color: #555;
+    border-color: #ccc;
+    background: #f7f7f7;
+    box-shadow: 0 1px 0 #ccc;
+    vertical-align: top;
+}
+
+.wp-core-ui .button,
+.wp-core-ui .button-primary,
+.wp-core-ui .button-secondary {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 13px;
+    line-height: 26px;
+    height: 28px;
+    margin: 0;
+    padding: 0 10px 1px;
+    cursor: pointer;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+
+#the-list tr:last-child td,
+#the-list tr:last-child th {
+    border-bottom: none !important;
+    box-shadow: none;
+}
+
+#wcfefg_custom_fields #newmetaleft a {
+    display: inline-block;
+    margin: 0 8px 8px;
+    text-decoration: none;
+}
